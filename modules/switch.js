@@ -21,3 +21,5 @@ window.onload = () => {
     });
   }
 };
+
+export default tabSwitcher;

@@ -6,7 +6,6 @@ const bookTitle = document.getElementById('title');
 const bookAuthor = document.getElementById('author');
 const bookAdd = document.getElementById('book-add');
 
-
 //   constructor() {
 //     this.books = [
 //       {
@@ -81,9 +80,7 @@ bookAdd.addEventListener('click', (e) => {
 
 document.addEventListener('DOMContentLoaded', () => {
   allLibrary.getLocalStorage();
- 
 });
-
 
 window.onload = () => {
   const tabSwitchers = document.querySelectorAll('[data-switcher]');

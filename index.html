@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Awesome Books</title>
+</head>
+<body>
+  <main class="main-body">
+  <header>
+    <nav>
+      <div id="itemsDiv" class="nav-items">
+       <a class="logo" href="#">Awesome Books</a>
+       <ul class="tabs">
+        <li class="tab is-active"><a data-switcher data-tab="1" >List</a></li>
+        <li class="tab"><a data-switcher data-tab="2">Add new</a></li>
+        <li class="tab"><a data-switcher data-tab="3">Contact</a></li>
+        </ul>
+ 
+      </div>
+      <div id="date-Time">
+      <span class="dateTime" id="dateTime"></span>
+      
+    </div>
+    </nav>
+  </header>
+  <main>
+    <section class="pages">
+      <section class="heading_container page is-active" data-page="1">
+            <h1 class="awesome">Awesome Books</h1>
+            <div class="book-list" id="book-list"></div>
+      </section>
+      <section class="form_container page" data-page="2">            
+            <h2 class="addNew">Add a new book</h2>
+            <form id="book-form" class="book-form">
+                <div class="input">
+                <input type="text" name="title" id="title" placeholder="Title" required>
+                <input type="text" name="title" id="author" placeholder="Author" required>
+                </div>
+                <div class="books-btn-div">
+                  <button type="submit" class="book-add" id="book-add">Add</button>
+                </div>
+            </form>         
+        </section>
+        <section class="contactpage page" data-page="3">
+          <div>
+            <h2 class="contactMe">Contact information</h2>
+            <div>
+              <p class="contactP">
+                Do you have any questions or you just want to say "Hello"? <br />
+                You can reach out to us!
+              </p>
+              <ul  class="contactP">
+                <li>Our e-mail: noqsnoqs@gmail.com</li>
+                <li>Our phone number: +9175857587</li>
+                <li>Our address: Streetname 22, 84503 Kenya, Country</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section> 
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="foota">
+    <div>
+      <span>Copyright ©️ 2022</span>
+      <span>&</span>
+      <span>
+        HARRY
+      </span>
+    </div>
+  </footer>
+</main>
+<script src="index.js" type="module"></script>   
+</body>
+</html>

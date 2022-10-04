@@ -6,7 +6,7 @@ const bookTitle = document.getElementById('title');
 const bookAuthor = document.getElementById('author');
 const bookAdd = document.getElementById('book-add');
 
-export class Booklibrary {
+class Booklibrary {
   constructor() {
     this.books = [
       {

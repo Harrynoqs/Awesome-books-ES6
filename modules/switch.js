@@ -1,4 +1,4 @@
-  const SwitchPage = (pageId) => {
+const SwitchPage = (pageId) => {
   const currentPage = document.querySelector('.pages .page.is-active');
   currentPage.classList.remove('is-active');
 

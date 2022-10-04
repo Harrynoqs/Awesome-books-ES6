@@ -1,4 +1,4 @@
-// import './modules/switch.js';
+// import allLibrary from './modules/switch.js';
 import './modules/date.js';
 
 const bookList = document.getElementById('book-list');
